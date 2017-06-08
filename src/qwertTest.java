@@ -9,8 +9,8 @@ public class qwertTest {
 	@Test
 	public void test() {
 		qwert q=new qwert(1000);
-		q.deposit(800);
-		assertEquals(1800,q.getBal());
+		q.deposit(900);
+		assertEquals(1900,q.getBal());
 	}
 
 }
